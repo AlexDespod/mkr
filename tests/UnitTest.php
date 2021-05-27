@@ -14,7 +14,7 @@ class UnitTest extends TestCase
         $this->subject = new Subject("programming");
     }
 
-    public function markTest()
+    public function testMark()
     {
         $this->assertTrue($this->subject->getMarkSummAtOnes("alex") == 27);
         $this->assertTrue($this->subject->getMarkSummAtOnes("alex") == 20);

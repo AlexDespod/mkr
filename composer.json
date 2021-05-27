@@ -12,7 +12,8 @@
   },
   "autoload": {
     "files": [
-      "app/LabWork.php"
+      "app/LabWork.php",
+      "app/Subject.php"
     ]
   }
 }
