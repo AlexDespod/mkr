@@ -1,0 +1,13 @@
+{
+    "name": "vendor/kpi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "AlexDespod",
+            "email": "kolesniks559@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
