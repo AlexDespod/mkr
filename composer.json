@@ -1,13 +1,18 @@
 {
-    "name": "vendor/kpi",
-    "type": "project",
-    "authors": [
-        {
-            "name": "AlexDespod",
-            "email": "kolesniks559@gmail.com"
-        }
-    ],
-    "require": {
-        "phpunit/phpunit": "^9.5"
+  "name": "vendor/kpi",
+  "type": "project",
+  "authors": [
+    {
+      "name": "AlexDespod",
+      "email": "kolesniks559@gmail.com"
     }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "files": [
+      "app/LabWork.php"
+    ]
+  }
 }
